@@ -1,0 +1,310 @@
+/*Estilos Gerais*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p,li {
+    color: #444;
+    font-size: 14px;
+}
+/*Barra de Navegação*/
+header,.navbar {
+    background-color: #353D41;
+}
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo {
+    width: 75px;
+}
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+}
+.nav-brand:hover {
+    color: #FFF;
+}
+#navbar-links a {
+    color: #FFF;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem . 8rem;
+}
+/*Slider*/
+.contaider-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 100vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300px;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+
+.main-btn {
+    background-color: #ff0000ea;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color:#ff0000ea;
+}
+.carousel-indicators.active{
+     background-color: #ff0000ea;
+}
+/*Quem Somos*/
+#about .heading h1 {
+    font-size: 4rem;
+    color: #000;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+  }
+  
+  #about .heading h1 span {
+    color: #ff0000ea;
+  }
+  
+  #about .content {
+    margin: 5rem auto;
+  }
+  
+  #about .content p {
+    font-size: 2rem;
+  }
+  
+  #about .content button {
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 4rem;
+    width: 14rem;
+    background: #333;
+    color: #fff;
+  }
+  
+  #about .content button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ff0000ea;
+    height: 100%;
+    width: 0%;
+    -webkit-transition: .2s;
+    transition: .2s;
+    z-index: -1;
+  }
+  
+  #about .content button:hover::before {
+    width: 100%;
+  }
+  
+  #about .content button:hover {
+    color: #333;
+  }
+  
+  #about .image img {
+    width: 90vw;
+  }
+ /*Nossos Pratos*/ 
+
+#dish {
+    min-height: 100vh;
+    width: 100vw;
+  }
+  
+  #dish .heading h1 {
+    font-size: 4rem;
+    color: #000;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+  }
+  
+  #dish .heading h1 span {
+    color: #ff0000ea;
+  }
+  
+  #dish .box-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 90%;
+  }
+  
+  #dish .box-container .box {
+    height: 20rem;
+    width: 25rem;
+    border-radius: .5rem;
+    margin: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 0 0 .5rem #333;
+            box-shadow: 0 0 .5rem #333;
+  }
+  
+  #dish .box-container .box img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  #dish .box-container .box .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.6);
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    color: #fff;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  
+  #dish .box-container .box .info h3 {
+    font-size: 3rem;
+  }
+  
+  #dish .box-container .box .info p {
+    font-size: 1.3rem;
+    border-bottom: 0.2rem solid #ff0000ea;
+    border-top: 0.2rem solid #ff0000ea;
+    margin: 1rem 2rem;
+  }
+  
+  #dish .box-container .box .info button {
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 4rem;
+    width: 14rem;
+  }
+  
+  #dish .box-container .box .info button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ff0000ea;
+    height: 100%;
+    width: 0%;
+    -webkit-transition: .2s;
+    transition: .2s;
+    z-index: -1;
+  }
+  
+  #dish .box-container .box .info button:hover::before {
+    width: 100%;
+  }
+  
+  #dish .box-container .box:hover .info {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  /*Faça seu pedido*/
+  #contact .heading h1 {
+    font-size: 4rem;
+    color: #000;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+  } 
+  #contact .heading h1 span {
+    color: #ff0000ea;
+  }
+  #titulo {
+    color: #000;
+    margin-left: 70%;
+} 
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+  color: #000;
+  margin-left: 70%;
+}
+/* Elementos com o ID "campo" */
+.grupo {
+  color: #000;
+  margin-left: 70%;
+
+#check {
+  display: inline-block;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+  border: 0;
+}
