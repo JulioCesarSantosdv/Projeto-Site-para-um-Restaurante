@@ -12,7 +12,7 @@ Este projeto consiste em um site de um restaurante.
 + Uso de botão do WhatsApp
 
 
-<h2>Tecnologias Urilizadas</h2>
+<h2>Tecnologias Utilizadas</h2>
 <table>
 <tr>
 <td><strong>HTML</strong></td>
@@ -28,4 +28,4 @@ Este projeto consiste em um site de um restaurante.
 </tr>
 </table>
 
-https://user-images.githubuserconten
+
